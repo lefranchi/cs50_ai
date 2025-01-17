@@ -1,0 +1,34 @@
+
+# Ignorar arquivos e pastas de imagens
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.svg
+*.tiff
+*.ico
+
+# Ignorar arquivos gerados pelo Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Ignorar ambientes virtuais
+.venv/
+env/
+venv/
+ENV/
+.build/
+
+# Ignorar arquivos relacionados ao Poetry
+poetry.lock
+dist/
+*.egg-info/
+
+
+# Ignorar arquivos e pastas do PyCharm
+.idea/
+*.iml

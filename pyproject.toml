@@ -1,0 +1,13 @@
+[project]
+name = "cs50"
+version = "0.1.0"
+description = ""
+authors = [{ name = "Leandro Franchi", email = "engineering@hausplatform.com.br" }]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ["pillow (==11.1.0)"]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
