@@ -5,7 +5,7 @@ description = ""
 authors = [{ name = "Leandro Franchi", email = "engineering@hausplatform.com.br" }]
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = ["pillow (==11.1.0)"]
+dependencies = ["pillow (==11.1.0)", "pygame (>=2.6.1,<3.0.0)"]
 
 
 [build-system]
